@@ -25,7 +25,14 @@ Este projeto é resultado da **Imersão de Agentes de IA da Alura**, um programa
 - **LangChain** → Framework para facilitar o desenvolvimento e a orquestração de aplicações baseadas em LLMs.  
 - **Pydantic** → Biblioteca para validação de dados e conversão das saídas da IA em classes tipadas.  
 - **Google Colab** → Ambiente de desenvolvimento utilizado para a execução do código.  
+- **Gradio** → Criação de uma interface web simples e interativa para interação com o agente.
+- **Hugging Face Spaces** → Hospedagem do projeto em um ambiente acessível via navegador.
 
+## 🌐 Versão Web  
+
+Além do notebook, este projeto conta com uma versão **web interativa** criada com **Gradio**, onde é possível conversar diretamente com o agente e explorar os fluxos implementados.  
+
+👉 Acesse aqui: [Imersão Agentes de IA - Web (Hugging Face Spaces)](https://huggingface.co/spaces/helosalgado/imersao-alura-ia)  
 
 ## Como Executar
 
@@ -39,6 +46,6 @@ Este projeto é resultado da **Imersão de Agentes de IA da Alura**, um programa
     - No painel lateral esquerdo, selecione o ícone de chave (Secret Manager).
     - Adicione uma nova variável secreta com o nome GEMINI_API_KEY e cole o valor da sua chave.
 
-4. Instale as dependências: Execute a primeira célula do notebook para instalar todas as bibliotecas necessárias.
+4. Instale as dependências.
 
 5. Execute o restante do código: Continue a execução das células para interagir com o modelo e explorar os exemplos.
